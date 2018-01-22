@@ -4,6 +4,7 @@ package com.jk.service.impl;/*
 
 import com.alibaba.dubbo.common.json.JSON;
 import com.jk.dao.UserMapper;
+import com.jk.model.Tree;
 import com.jk.model.User;
 import com.jk.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,5 +28,10 @@ public class UserServiceImpl implements UserService{
           map.put("rows",list);
 
           return map;
+     }
+
+     @Override
+     public List<Tree> findTree(int i) {
+          return userMapper.findTree(i);
      }
 }

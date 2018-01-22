@@ -13,15 +13,10 @@ import java.util.Date;
 import java.util.List;
 
 /**
- * <pre>项目名称：dubbo_producer    
- * 类名称：User    
- * 类描述：    
- * 创建人：张慧慧cht_java@126.com    
- * 创建时间：2018年1月17日 下午6:48:39    
- * 修改人：张慧慧 cht_java@126.com  
- * 修改时间：2018年1月17日 下午6:48:39    
- * 修改备注：       
- * @version </pre>    
+ * @Author：ZhangHuihui_java
+ * @Description：
+ * @Date：Created in 18:55 2018/1/21
+ * @Modified By：
  */
 public class User implements Serializable{
    
